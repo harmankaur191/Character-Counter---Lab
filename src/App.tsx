@@ -1,10 +1,14 @@
 import { TextInput } from "./components/TextInput/TextInput"
 
-const textInput = {onTextChange:}
+import StatsDisplay from "./components/StatsDisplay/StatsDisplay";
+
 export default function App(){
+
+  
   return(
-    <div>
-<TextInput{}/>
+    <div className="w-full p-9 justify-center">
+<TextInput/>
+<StatsDisplay/>
     </div>
   )
 
