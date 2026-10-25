@@ -5,9 +5,9 @@ export default function App(){
 const counter: CharacterCounterProps={minWords:25, maxWords:100,targetReadingTime:1}
   
   return(
-    <div className="w-full p-9 justify-center">
+    <div className="w-full h-dvh flex p-9 justify-center bg-black ">
       <CharacterCounter {...counter}/>
-
+        
     </div>
   )
 
