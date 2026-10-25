@@ -1,4 +1,4 @@
-import { useState } from "react"
+
 import type { TextInputProps } from "../../types";
 
 export function TextInput(props:TextInputProps){
@@ -6,8 +6,6 @@ export function TextInput(props:TextInputProps){
     return(
     <div>
         <textarea className={styles} placeholder={props.placeholder} value={props.initialValue} onChange={(e)=>props.onTextChange(e.target.value)} rows={6} cols={50} />
-         
-        
     </div>
     )
 
