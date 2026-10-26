@@ -6,6 +6,7 @@ const counter: CharacterCounterProps={minWords:25, maxWords:100,targetReadingTim
   
   return(
     <div className="w-full h-dvh flex p-9 justify-center bg-black ">
+      {/* rendering CharacterCount Component */}
       <CharacterCounter {...counter}/>
         
     </div>

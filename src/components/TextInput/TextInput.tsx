@@ -1,6 +1,6 @@
 
 import type { TextInputProps } from "../../types";
-
+// TextInput function
 export function TextInput(props:TextInputProps){
      const styles=" justify-center border-1 rounded-lg border-gray-300 bg-white  p-9"
     return(
